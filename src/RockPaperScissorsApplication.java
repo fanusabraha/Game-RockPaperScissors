@@ -40,6 +40,10 @@ public class RockPaperScissorsApplication {
                     System.out.println("Computer Won");
                 }
             }
+            System.out.println("If you want to quit the game press n");
+            String playorquit= scnanner.next();
+            if(playorquit.equals("n")) break;
         }
+        scnanner.close();
     }
 }
