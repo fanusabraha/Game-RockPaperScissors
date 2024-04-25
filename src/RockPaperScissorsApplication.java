@@ -17,6 +17,13 @@ public class RockPaperScissorsApplication {
             if (playermove.equals(computermove)) {
                 System.out.println(" NOdbody won your move was  " + playermove + " Computermove was " + computermove);
             }
+            if (playermove.equals("r")) {
+                if (computermove.equals("p")) {
+                    System.out.println("Computer won you ");
+                } else if (computermove.equals("s")) {
+                    System.out.println("You won");
+                }
+            }
         }
     }
 }
