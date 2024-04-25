@@ -32,6 +32,14 @@ public class RockPaperScissorsApplication {
                     System.out.println("Computer Won");
                 }
             }
+            else if (playermove.equals("p")) {
+                if (computermove.equals("r")) {
+                    System.out.println("You Won");
+                }
+                if (computermove.equals("s")) {
+                    System.out.println("Computer Won");
+                }
+            }
         }
     }
 }
